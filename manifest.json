@@ -1,0 +1,16 @@
+{
+    "name": "Right-click menu sample",
+    "description": "sample",
+    "version": "0.0.1",
+    "permissions": ["contextMenus"],
+    "background": {
+        "persistent": false,
+        "scripts": ["scrapper.js"]
+    },
+    "icons": {
+        "16": "icon-bitty.png",
+        "48": "icon-small.png",
+        "128": "icon-large.png"
+    },
+    "manifest_version": 2
+}
